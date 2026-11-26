@@ -1,0 +1,29 @@
+{
+  "name": "taskmarket-pulse",
+  "version": "1.0.0",
+  "description": "A live, read-only dashboard of Taskmarket's public market data. Unofficial; made for a paid Taskmarket bounty.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "taskmarket-pulse": "server.mjs"
+  },
+  "files": [
+    "src",
+    "assets",
+    "public",
+    "licenses",
+    "build.mjs",
+    "server.mjs"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node server.mjs",
+    "test": "node --test test/derive.test.mjs test/page.test.mjs"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}
