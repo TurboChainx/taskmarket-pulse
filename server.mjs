@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Live server: one command, no build step.
-//   npx github:TurboChainx/taskmarket-pulse        (or: npm start)
+//   npx -y github:TurboChainx/taskmarket-pulse        (or: npm start)
 // Fetches the API on the server, keeps the result for CACHE_SECONDS (default 300, minimum 60),
 // serves the last good copy while it refreshes, and never calls the API from the browser.
 import http from 'node:http';

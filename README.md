@@ -10,7 +10,7 @@ Made for a paid Taskmarket bounty. Not an official Taskmarket product.
 ## Deploy in one command
 
 ```sh
-npx github:TurboChainx/taskmarket-pulse
+npx -y github:TurboChainx/taskmarket-pulse
 ```
 
 This starts the live server on port 8080 (Node 20 or newer). It fetches the API on the server, keeps the result for
